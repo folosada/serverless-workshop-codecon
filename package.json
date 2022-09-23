@@ -1,0 +1,21 @@
+{
+  "name": "serverless-workshop-codecon",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo para Workshop da Codecon",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flávio Omar Losada",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.104",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^10.0.2",
+    "serverless-plugin-typescript": "^2.1.2",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "nanoid": "~3.3.4"
+  }
+}
